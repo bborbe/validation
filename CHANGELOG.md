@@ -8,6 +8,14 @@ Please choose versions by [Semantic Versioning](http://semver.org/).
 * MINOR version when you add functionality in a backwards-compatible manner, and
 * PATCH version when you make backwards-compatible bug fixes.
 
+## v1.3.1
+
+- Add comprehensive Go doc comments to all exported functions and types
+- Create package documentation in doc.go with usage examples
+- Enhance README.md with detailed API documentation and usage examples
+- Improve .gitignore with comprehensive Go-specific entries
+- Apply Go doc best practices throughout the codebase
+
 ## v1.3.0
 
 - remove vendor
