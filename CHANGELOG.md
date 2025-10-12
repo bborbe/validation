@@ -8,6 +8,16 @@ Please choose versions by [Semantic Versioning](http://semver.org/).
 * MINOR version when you add functionality in a backwards-compatible manner, and
 * PATCH version when you make backwards-compatible bug fixes.
 
+## v1.3.2
+
+- Update Go version to 1.25.2
+- Add golangci-lint configuration file (.golangci.yml)
+- Enhance Makefile with additional quality checks (lint, gosec, trivy, osv-scanner)
+- Add Trivy security scanner to GitHub Actions CI workflow
+- Update development dependencies (golangci-lint, gosec, osv-scanner)
+- Improve format target to handle vendor directories correctly
+- Update copyright year to 2025
+
 ## v1.3.1
 
 - Add comprehensive Go doc comments to all exported functions and types
