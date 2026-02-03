@@ -8,6 +8,14 @@ Please choose versions by [Semantic Versioning](http://semver.org/).
 * MINOR version when you add functionality in a backwards-compatible manner, and
 * PATCH version when you make backwards-compatible bug fixes.
 
+## v1.4.2
+
+- Update Go 1.25.6
+- Update osv-scanner v2.3.2
+- Update ginkgo v2.28.1 and gomega v1.39.1
+- Update grpc v1.78.0 and protobuf v1.36.11
+- Update golang.org/x dependencies
+
 ## v1.4.1
 
 - Update Go to 1.25.5
