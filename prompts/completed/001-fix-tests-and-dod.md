@@ -1,7 +1,12 @@
 ---
-status: approved
-created: "2026-03-20T12:58:06Z"
-queued: "2026-03-20T12:58:06Z"
+status: completed
+summary: Ran make precommit — all checks pass, no issues found; updated CHANGELOG.md with Unreleased section.
+container: validation-001-fix-tests-and-dod
+dark-factory-version: v0.59.5-dirty
+created: "2026-03-20T18:20:00Z"
+queued: "2026-03-20T18:20:00Z"
+started: "2026-03-20T18:20:37Z"
+completed: "2026-03-20T18:28:26Z"
 ---
 
 <summary>
