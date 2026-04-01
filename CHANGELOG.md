@@ -8,6 +8,12 @@ Please choose versions by [Semantic Versioning](http://semver.org/).
 * MINOR version when you add functionality in a backwards-compatible manner, and
 * PATCH version when you make backwards-compatible bug fixes.
 
+## v1.4.10
+
+- bump dependency versions (docker, containerd, prometheus, otel, moby)
+- add replace directives for charmbracelet/x/cellbuf, denis-tingaikin/go-header, nunnatsa/ginkgolinter, opencontainers/runtime-spec
+- update golang.org/x/exp, go-git, klauspost/compress
+
 ## v1.4.9
 
 - fix charmbracelet/x/cellbuf dependency incompatibility with ansi package
