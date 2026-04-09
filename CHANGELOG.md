@@ -8,6 +8,14 @@ Please choose versions by [Semantic Versioning](http://semver.org/).
 * MINOR version when you add functionality in a backwards-compatible manner, and
 * PATCH version when you make backwards-compatible bug fixes.
 
+## v1.4.11
+
+- update dependencies (errors, golangci-lint, osv-scanner, counterfeiter)
+- bump Go toolchain to 1.26.2
+- add vuln ignores for bbolt and aws-sdk-go-v2
+- filter known CVEs in trivyignore
+- improve vulncheck to filter known findings via jq
+
 ## v1.4.10
 
 - bump dependency versions (docker, containerd, prometheus, otel, moby)
