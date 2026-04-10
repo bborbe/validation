@@ -2,7 +2,6 @@ autoRelease: true
 pr: false
 worktree: false
 validationPrompt: docs/dod.md
-
 env:
   GOPATH: /home/node/go
   GOCACHE: /home/node/.cache/go-build
