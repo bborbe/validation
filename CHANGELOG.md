@@ -8,6 +8,10 @@ Please choose versions by [Semantic Versioning](http://semver.org/).
 * MINOR version when you add functionality in a backwards-compatible manner, and
 * PATCH version when you make backwards-compatible bug fixes.
 
+## Unreleased
+
+- chore: update Go to 1.27.0 and update dependencies
+
 ## v1.4.21
 
 - chore: Run gofmt last in the `format` target so golines' wrapping is normalized before the gofmt lint check
