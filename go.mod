@@ -3,7 +3,7 @@ module github.com/bborbe/validation
 go 1.27.2
 
 require (
-	github.com/bborbe/errors v1.6.1
+	github.com/bborbe/errors v1.6.3
 	github.com/onsi/ginkgo/v2 v2.33.1
 	github.com/onsi/gomega v1.44.0
 )
@@ -24,4 +24,6 @@ require (
 	golang.org/x/tools v0.51.0 // indirect
 )
 
-exclude cloud.google.com/go v0.26.0
+exclude (
+	cloud.google.com/go v0.26.0
+)
